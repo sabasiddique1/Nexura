@@ -2,9 +2,15 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Welcome to Nexura</h1>
-        </div>
+       <div>
+           <section className="home">
+               <div className="home-content">
+                   <header className="home-header">
+                       Welcome, Nexura
+                   </header>
+               </div>
+           </section>
+       </div>
     );
 }
 
